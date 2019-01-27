@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^<html lang="en" dir="ltr">$/;"	function	line:2
+head	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^<head>$/;"	function	line:4
+meta	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <meta charset="utf-8">$/;"	function	line:5
+title	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <title>Kyle's Personal Website<\/title>$/;"	function	line:6
+body	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^<body>$/;"	function	line:9
+h	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <h1>Kyle Thompson<\/h1>$/;"	function	line:10
+em	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <em>NASA Langley Research Center<\/em>$/;"	function	line:11
+p	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <p>I am an aerospace engineer at NASA Langley Research Center, with a$/;"	function	line:12
+p	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <p>I develop and maintain the hypersonic path of <em>FUN3D<\/em> and my current$/;"	function	line:14
+hr	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <hr>$/;"	function	line:16
+h	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <h3>Education<\/h3>$/;"	function	line:17
+p	/Users/kbthomps/Udemy/Web Development Bootcamp/Personal Website/index.html	/^  <p>North Carolina State University<\/p>$/;"	function	line:18
