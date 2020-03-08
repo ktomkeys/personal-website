@@ -9,3 +9,7 @@ hr {
   border-width: 8px;
   width: 30%;
 }
+
+.circular {
+  border-radius: 5%;
+}
