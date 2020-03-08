@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+
+hr {
+  border-color: black;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 30%;
+}
+
+.header-div {
+  background-color: blue;
+}
+
+.bio-header {
+  width: 80%;
+}
+
+.circular {
+  border-radius: 5%;
+}

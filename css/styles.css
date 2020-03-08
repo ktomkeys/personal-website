@@ -1,19 +1,42 @@
 body {
-  background-color: rgb(204, 204, 204);
-  color: black;
+  margin: 0;
+  /* border-width: 10px; */
 }
-hr {
+
+/* .header-div {
+  background-color: rgb(180, 188, 206);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 20px;
+} */
+.header-div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+
+  border-style: solid;
   border-color: black;
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 8px;
-  width: 30%;
+  border-width: 10px;
+  padding: 20px;
 }
 
-.bio-header {
-  width: 80%;
-}
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
 
-.circular {
-  border-radius: 5%;
+  border-style: solid;
+  border-color: brown;
+  border-width: 20px;
+  margin-left: 260px;
+}
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  border-style: solid;
+  border-color: green;
+  border-width: 10px;
+  margin-left: 500px;
 }
