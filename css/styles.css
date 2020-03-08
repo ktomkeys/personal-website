@@ -10,6 +10,10 @@ hr {
   width: 30%;
 }
 
+.bio-header {
+  width: 80%;
+}
+
 .circular {
   border-radius: 5%;
 }
