@@ -3,40 +3,55 @@ body {
   /* border-width: 10px; */
 }
 
-/* .header-div {
+.header-div {
   background-color: rgb(180, 188, 206);
   margin-bottom: 0px;
   margin-top: 0px;
   padding: 20px;
-} */
-.header-div {
+}
+.cfd-underline {
+  text-decoration: underline;
+}
+
+.container {
+  height: 400px;
+  width: 100%;
+  /* position: absolute; */
+  background-color: black;
+}
+
+.top-container {
   width: 200px;
   height: 200px;
-  background-color: white;
+  background-color: blue;
 
-  border-style: solid;
-  border-color: black;
-  border-width: 10px;
-  padding: 20px;
+  /* position: absolute;
+  left: 200px; */
 }
 
 .middle-container {
   width: 200px;
   height: 200px;
-  background-color: blue;
+  background-color: yellow;
+  position: relative;
+  left: 200px;
+  /* top: 200px; */
 
-  border-style: solid;
+  /* border-style: solid;
   border-color: brown;
   border-width: 20px;
-  margin-left: 260px;
+  margin-left: 260px; */
 }
 .bottom-container {
   width: 200px;
   height: 200px;
   background-color: red;
+  position: relative;
+  left: 400px;
+  /* top: 400px; */
 
-  border-style: solid;
+  /* border-style: solid;
   border-color: green;
   border-width: 10px;
-  margin-left: 500px;
+  margin-left: 500px; */
 }
