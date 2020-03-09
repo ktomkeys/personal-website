@@ -1,123 +1,84 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>Kyle Thompson</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Mono|Merriweather|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
-
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            class="circular"
-            src="https://fun3d.larc.nasa.gov/kyle-thompson.jpg"
-          />
-        </td>
-        <td>
-          <h1>Kyle Thompson</h1>
-          <em>NASA Langley Research Center</em>
-          <p class="bio-header">
-            I develop and maintain the hypersonic path of the
-            <a href="https://fun3d.larc.nasa.gov">FUN3D</a> CFD code and my
-            current focus is on Newton-type algorithms for accelerating
-            convergence in stiff PDEs
+    <div class="header-div">
+      <!-- <img class="top-cloud" src="images/cloud.png" alt="cloud-img" /> -->
+      <h1>I'm Kyle.</h1>
+      <p class="subtitle">
+        a <span class="cfd-underline">computational</span> fluid dynamicist
+      </p>
+      <!-- <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <img src="images/mountain.png" alt="cloud-img" /> -->
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-pic" src="images/headshot.jpeg" alt="headshot" />
+        <h2>Hello.</h2>
+        <p>
+          I build next-generation CFD codes in the Aerothermodynamics Branch at
+          NASA Langley Research Center.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="computer-pic" src="images/computer.png" alt="" />
+          <h3>Programming Languagues</h3>
+          <p>
+            I develop daily in C++, Python, and FORTRAN 90/95/03, and I am a
+            continual advocate for Test-Driven Development.
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+        <div class="skill-row">
+          <img
+            class="fun3d-pic"
+            src="https://fun3d.larc.nasa.gov/fun3d_logo.png"
+            href="https://fun3d.larc.nasa.gov/"
+            alt="FUN3D"
+          />
+          <h3>Modeling and Simulation</h3>
+          <p>
+            I develop and maintain the hypersonic path of the FUN3D code and
+            LAURA code at NASA Langley Research Center. My current focus is on
+            Newton-type algorithms for accelerating convergence in the context
+            of adaptive mesh refinement.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <p>
+          If you find me at my desk watching numbers scroll down the screen,
+          this is normal. I'm not crazy, I promise...
+        </p>
+        <a class="contact-me-button" href="mailto:kyle.b.thompson@nasa.gov">
+          CONTACT ME
+        </a>
+      </div>
+    </div>
 
-    <hr />
-    <h3>Education</h3>
-    <ul>
-      <li>2012 B.S. Aerospace Engineering North Carolina State University</li>
-      <li>2014 M.S. Aerospace Engineering North Carolina State University</li>
-      <li>2017 Ph.D. Aerospace Engineering North Carolina State University</li>
-    </ul>
-    <hr />
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-          <th>Employer</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2017-present</td>
-          <td>Aerospace Technologist</td>
-          <td>NASA Langley Research Center</td>
-        </tr>
-        <tr>
-          <td>2014-2017</td>
-          <td>Pathways Intern</td>
-          <td>NASA Langley Research Center</td>
-        </tr>
-        <tr>
-          <td>2012-2014</td>
-          <td>Graduate Research Assistant</td>
-          <td>NC State University</td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
-    </table>
-
-    <hr />
-    <h3>Skills</h3>
-    <table>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>C++</td>
-            <td>&#x1F680; &#x1F680; &#x1F680; &#x1F680; &#x1F680;</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>&#x1F680; &#x1F680; &#x1F680; &#x1F680;</td>
-          </tr>
-          <tr>
-            <td>FORTRAN 90/95/03</td>
-            <td>&#x1F680; &#x1F680; &#x1F680; &#x1F680;</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Git</td>
-            <td>&#x1F680; &#x1F680; &#x1F680; &#x1F680; &#x1F680;</td>
-          </tr>
-          <tr>
-            <td>Gitlab CI</td>
-            <td>&#x1F680; &#x1F680; &#x1F680; &#x1F680; &#x1F680;</td>
-          </tr>
-          <tr>
-            <td>Jenkins CI</td>
-            <td>&#x1F680; &#x1F680;</td>
-          </tr>
-        </table>
-      </td>
-    </table>
-    <hr />
-    <!-- <a href="publications.html">
-      Publications List
-    </a> -->
-    <h3>Contact Me</h3>
-    <form
-      class=""
-      action="mailto:kbthomp1@gmail.com"
-      method="POST"
-      enctype="text/plain"
-    >
-      <label>Your Name:</label>
-      <input type="text" name="YourName" value="" /><br />
-      <label>Your Email:</label>
-      <input type="email" name="YourEmail" value="" /> <br />
-      <input type="submit" />
-    </form>
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/kyle-thompson-a20a3932/"
+      >
+        LinkedIn
+      </a>
+      <a class="footer-link" href="https://twitter.com/ktomkeys">Twitter</a>
+      <p>© 2020 Kyle Thompson.</p>
+    </div>
   </body>
 </html>
